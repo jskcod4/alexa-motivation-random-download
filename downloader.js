@@ -20,6 +20,4 @@ function downloadYoutubeVideo(url) {
         });
 }
 
-// Example usage
-const youtubeUrl = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
-downloadYoutubeVideo(youtubeUrl);
+module.exports = downloadYoutubeVideo;
